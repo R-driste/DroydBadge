@@ -2,14 +2,14 @@
 
 > A PCB hackathon badge featuring a camera, display, NFC, and thermal printer integration. Built on ESP32-S3, designed from scratch for the Outpost/Opensauce competition.
 
-**Key Features:**
-- 📷 Camera with live viewfinder
-- 🎮 Game mode with sprite support
-- 📱 E-ink display
-- 🏷️ NFC capability
-- 🖨️ Thermal printer sticker output
-- 🔋 Rechargeable LiPo battery system
-- 💾 SD card storage
+**Key Intended Features:**
+- Camera with live viewfinder
+- Game mode with sprite support
+- E-ink display
+- NFC capability
+- Thermal printer sticker output
+- Rechargeable LiPo battery system
+- SD card storage
 
 ---
 ## Board Images
@@ -105,13 +105,23 @@ Time Spent: 3.75 hrs
 
 ---
 
-### June 29th
+### June 29th/30th
 
 **Goal:** Route PCB
 
-I wired almost the entire PCB and created two extra layers for my GND and 3v3 vias to tie to. 
+I wired almost the entire PCB and created two extra layers for my GND and 3v3 vias to tie to. On June 30th I finish routing the rest of all my necessary components. To my surprise DRC did not have any issues but I ran into multiple errors with the software itself that I had to troubleshoot.
 
-Time Spent: 3.67 hrs
+Time Spent: 4.67 hrs
+
+---
+
+### July 1st
+
+**Goal:** Polish badge for ordering
+
+I fixed up a lot of the wiring so the badge would be complete, drew silkscreen assets, and identified my badge will arrive too late if I don't order soon and get a discount so I looked into applying for EasyEda Spark.
+
+Time Spent: 2.25 hrs
 
 ---
 
@@ -119,7 +129,7 @@ Time Spent: 3.67 hrs
 
 **Goal:** Reduce PCB shipping time/cost and strengthen power rails.
 
-I added more copper fill regions to my second layer for +1v3 and +2v8, increased the trace width of my +5v rail, double checked my DRC and created an optional CAD case for my badge. Then I submitted it to EasyEDA Spark in order to get some funds covered and try accelerate shipping so it can arrive in time.
+I added more copper fill regions to my second layer for +1v3 and +2v8, increased the trace width of my +5v rail, double checked my DRC and created an optional CAD case for my badge. Then I submitted it to EasyEDA Spark in order to get some funds covered and try accelerate shipping so it can arrive in time. Done!
 
 Time Spent: 10 hrs
 
