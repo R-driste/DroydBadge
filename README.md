@@ -25,7 +25,8 @@
 </div>
 
 <div align="center">
-  <img src="Assets/schema.png" alt="Power System Schematic" width="90%" />
+  <img src="Assets/schema.png" alt="Power System Schematic" width="40%" />
+  <img src="Assets/DroydBadge.png" alt="CAD" width="40%" />
 </div>
 
 ---
