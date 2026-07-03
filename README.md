@@ -1,19 +1,83 @@
-# Dristi Badge
+# 🎫 Dristi Badge
 
-### This is a pcb hackathon badge with a camera, display, and NFC. The display doubles as a live viewfinder and game screen/mode display. You can take someone's picture, save it to an SD card, use it as a game sprite, and print it out as a sticker on a thermal printer. Built on an ESP32-S3, designed from scratch, ordered from JLCPCB.. This is my submission (ideally) for Outpost/Opensauce
+> A PCB hackathon badge featuring a camera, display, NFC, and thermal printer integration. Built on ESP32-S3, designed from scratch for the Outpost/Opensauce competition.
 
-#### June <=15th
-I identified everything I want to have in my badge, so I found all the parts on jlcpcb for easy access and datasheet reference. Since it needs to be chargeable, my primary goal today was to setup a charging system for my rechargable LiPo battery, so in my schematic I wired up the charging chip, ESD protection and USB connector for my badge.
-Time Spent: *3 hrs*
+**Key Features:**
+- 📷 Camera with live viewfinder
+- 🎮 Game mode with sprite support
+- 📱 E-ink display
+- 🏷️ NFC capability
+- 🖨️ Thermal printer sticker output
+- 🔋 Rechargeable LiPo battery system
+- 💾 SD card storage
 
-#### June 17th
-To wrapup my work on the charging/power system of the badge, today I wired up the battery voltage regulation section of my badge as well as started to map the basic power/reset/boot pins of the ESP32.
-Time Spent: *2 hrs*
+---
 
-#### June 18th/19th
-With my power system done, I've started working on the additional modules of the PCB badge. I wired the accelerometer which will tell my badge whether to be in camera mode or game mode and started using my primary IO expander.
-Time Spent: *2.2 hrs*
+## 📅 Development Log
 
-#### June 22nd
+### June ≤15th — Power System & Charging
 
-#### June 23rd
+**Goal:** Establish reliable power distribution and charging infrastructure
+
+I identified all required components and sourced them from JLCPCB for easy access and datasheet reference. My primary focus was setting up a charging system for the rechargeable LiPo battery. I designed the complete charging circuit including the charging IC, ESD protection, and USB connector.
+
+**Time Spent:** 3 hrs
+
+<div align="center">
+  <img src="Assets/schematic.png" alt="Power System Schematic" width="600" />
+</div>
+
+---
+
+### June 17th — Voltage Regulation & ESP32 Pinout
+
+**Goal:** Complete power delivery and microcontroller initialization
+
+I finalized the battery voltage regulation section and began mapping the essential ESP32 pins (power, reset, and boot). This established the foundation for the rest of the digital systems on the badge.
+
+**Time Spent:** 2 hrs
+
+---
+
+### June 18th-19th — Sensors & I/O Expansion
+
+**Goal:** Integrate motion sensing and expand GPIO capabilities
+
+With the power system complete, I moved on to the peripheral modules. I wired up the accelerometer (for camera/game mode detection) and configured the primary I/O expander to handle additional I/O requirements.
+
+**Time Spent:** 2.2 hrs
+
+<div align="center">
+  <img src="Assets/pcb_layout_top.png" alt="PCB Layout - Top View" width="600" />
+  <img src="Assets/pcb_layout_detailed.png" alt="PCB Layout - Detailed View" width="600" />
+</div>
+
+---
+
+### June 22nd
+
+*In Progress...*
+
+---
+
+### June 23rd
+
+*In Progress...*
+
+---
+
+## 🖼️ Board Renders
+
+<div align="center">
+  <img src="Assets/board_front.png" alt="DroydBadge - Front View" width="500" />
+  <img src="Assets/board_back.png" alt="DroydBadge - Back View" width="500" />
+</div>
+
+---
+
+## 📁 Project Structure
+
+- **CAD/** — 3D case design files
+- **Gerber_PCB/** — PCB manufacturing files (Gerber format)
+- **PCB/** — KiCad project files
+- **Assets/** — Documentation and reference materials
