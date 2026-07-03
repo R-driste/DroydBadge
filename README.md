@@ -12,8 +12,25 @@
 - 💾 SD card storage
 
 ---
+## Board Images
 
-## 📅 Development Log
+<div align="center">
+  <img src="Assets/frontrender.png" alt="DroydBadge - Front View" width="40%" />
+  <img src="Assets/backrender.png" alt="DroydBadge - Back View" width="40%" />
+</div>
+
+<div align="center">
+  <img src="Assets/frontpcb.png" alt="PCB Layout - Top View" width="40%" />
+  <img src="Assets/backpcb.png" alt="PCB Layout - Detailed View" width="40%" />
+</div>
+
+<div align="center">
+  <img src="Assets/schema.png" alt="Power System Schematic" width="90%" />
+</div>
+
+---
+
+## Development Log
 
 ### June ≤15th — Power System & Charging
 
@@ -22,10 +39,6 @@
 I identified all required components and sourced them from JLCPCB for easy access and datasheet reference. My primary focus was setting up a charging system for the rechargeable LiPo battery. I designed the complete charging circuit including the charging IC, ESD protection, and USB connector.
 
 **Time Spent:** 3 hrs
-
-<div align="center">
-  <img src="Assets/schematic.png" alt="Power System Schematic" width="600" />
-</div>
 
 ---
 
@@ -47,11 +60,6 @@ With the power system complete, I moved on to the peripheral modules. I wired up
 
 **Time Spent:** 2.2 hrs
 
-<div align="center">
-  <img src="Assets/pcb_layout_top.png" alt="PCB Layout - Top View" width="600" />
-  <img src="Assets/pcb_layout_detailed.png" alt="PCB Layout - Detailed View" width="600" />
-</div>
-
 ---
 
 ### June 22nd
@@ -63,15 +71,6 @@ With the power system complete, I moved on to the peripheral modules. I wired up
 ### June 23rd
 
 *In Progress...*
-
----
-
-## 🖼️ Board Renders
-
-<div align="center">
-  <img src="Assets/board_front.png" alt="DroydBadge - Front View" width="500" />
-  <img src="Assets/board_back.png" alt="DroydBadge - Back View" width="500" />
-</div>
 
 ---
 
