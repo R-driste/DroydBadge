@@ -2,6 +2,8 @@
 
 > A PCB hackathon badge featuring a camera, display, NFC, and thermal printer integration. Built on ESP32-S3, designed from scratch for the Outpost/Opensauce competition.
 
+> Thank you to EasyEDA Spark for helping inspire my project, fund my PCB prototyping and supporting this endeavor. I strongly recommend it to other people looking to build new hardware.
+
 **Key Intended Features:**
 - Camera with live viewfinder
 - Game mode with sprite support
