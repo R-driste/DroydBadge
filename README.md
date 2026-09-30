@@ -1,4 +1,5 @@
 # 🎫 Dristi Badge
+WORK IN PROGRESS, HAS BEEN ORDERED, TROUBLESHOOTING PCB.
 
 > A PCB hackathon badge featuring a camera, display, NFC, and thermal printer integration. Built on ESP32-S3, designed from scratch for the Outpost/Opensauce competition.
 
